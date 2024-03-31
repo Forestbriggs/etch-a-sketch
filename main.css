@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #242424;
+    height: 800px;
+    width: 800px;
+}
+
+.container>* {
+    box-sizing: border-box;
+    border: .0000001px solid #242424;
+}
